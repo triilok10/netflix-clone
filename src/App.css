@@ -1,0 +1,1205 @@
+.App {
+  text-align: center;
+}
+
+.homepadding-fill-bg {
+  background-color: #221c1c;
+  position: absolute;
+}
+
+.navbarBackground {
+  background: rgba(12, 12, 12, 0.65);
+  height: 100vh;
+}
+
+.navbarBackground-black {
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\Netflix Logo.jpg"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\Netflix Logo.jpg");
+  height: 100vh;
+  background-position: 60% 80%;
+  font-family: sans-serif;
+  margin-bottom: 8px;
+}
+
+.navbarHome {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 175px 30px 175px;
+}
+
+.navbarHome-left {
+  width: 220px;
+  height: 100px;
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\Netflix_Logo_CMYK.png"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\Netflix_Logo_CMYK.png");
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+.navbarHome-right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+  color: white;
+}
+
+#languageSelect {
+  background-color: black;
+  color: white;
+  font-size: .8em;
+  padding: 5px 14px;
+  margin-right: 14px;
+  border-radius: 4px;
+}
+
+
+#navbarHome-right-signin {
+  padding: 3.5px 18px;
+  background-color: red;
+  border-radius: 6px;
+  margin-left: 14px;
+}
+
+#navbarHome-right-signin:hover {
+  background-color: rgb(185, 4, 4);
+}
+
+
+#navbarHome-right-signin a {
+  text-decoration: none;
+  color: white;
+  font-size: .8em;
+}
+
+.navbarIntro-Central-Home {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  margin-top: 160px;
+  font-weight: bolder;
+}
+
+.navbarIntro-input-home {
+  display: flex;
+  justify-content: center;
+}
+
+#navbarIntro-input-home-take {
+  width: 380px;
+  height: 50px;
+  margin-right: 12px;
+  background: rgba(18, 18, 18, 0.2)
+}
+
+.navbarIntro-input-home-2 {
+  background-color: red;
+  padding: 12px 35px;
+  margin-left: 12px;
+}
+
+.navbarIntro-input-home-2 a {
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Tv box css here */
+.home-enjoy-2-tv {
+  background-color: #030303;
+  color: #fff;
+  display: flex;
+  height: 80vh;
+  margin-bottom: 8px;
+}
+
+.home-enjoy-2-tv-left {
+  padding-top: 200px;
+  width: 50%;
+}
+
+.home-enjoy-2-tv-left h1 {
+  margin: 0px 00px 0px 180px;
+  font-size: 48px;
+  padding-bottom: 32px;
+}
+
+.home-enjoy-2-tv-left h2 {
+  margin: 0px 0px 0px 180px;
+  font-weight: 400;
+}
+
+
+.home-enjoy-2-tv-right {
+  width: 50%;
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\tv.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+/* Mobile box Css here */
+.home-background-mobile {
+  background-color: #030303;
+  color: #fff;
+  display: flex;
+  height: 80vh;
+  margin-bottom: 8px;
+}
+
+.home-background-mobile-left {
+  width: 50%;
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\mobile boxshot.png"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\mobile.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.home-background-mobile-right {
+  padding-top: 130px;
+  width: 50%;
+}
+
+.home-background-mobile-right h1 {
+  margin-right: 180px;
+  font-size: 48px;
+}
+
+.home-background-mobile-right h2 {
+  margin-right: 250px;
+  font-weight: 400;
+}
+
+.home-background-mobile-left-box {
+  border: 2px solid #fff;
+  width: 400px;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 360px;
+  background-color: black;
+  margin-left: 248px;
+}
+
+.home-background-mobile-left-box-left {
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\mobile boxshot.png"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\mobile boxshot.png");
+  width: 80px;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-background-mobile-left-box-right {
+  width: 320px;
+  padding-left: 20px;
+}
+
+.home-background-mobile-left-box-right h3 {
+  font-weight: 400;
+}
+
+#stranger-things-more {
+  color: blue;
+  margin-top: -20px;
+}
+
+/* Box no.3 Watch everywhere */
+.home-background-watch-mainbox {
+  background-color: #030303;
+  color: #fff;
+  display: flex;
+  height: 80vh;
+  margin-bottom: 8px;
+}
+
+.home-background-watch-mainbox-left {
+  width: 50%;
+  padding-top: 220px;
+}
+
+.home-background-watch-mainbox-left h1 {
+  margin: 0px 00px 0px 240px;
+  font-size: 48px;
+  padding-bottom: 32px;
+}
+
+.home-background-watch-mainbox-left h2 {
+  margin: 0px 80px 0px 240px;
+  font-weight: 400;
+}
+
+.home-background-watch-mainbox-right {
+  width: 50%;
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\Create React App-4\mynetflix\src\Gallery\appletv.png"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\appletv.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  height: 80vh;
+  background-position: center;
+}
+
+/* Css for create profile for Kid's. */
+.home-background-kids-profile {
+  background-color: #030303;
+  color: #fff;
+  display: flex;
+  height: 80vh;
+  margin-bottom: 8px;
+}
+
+.home-background-kids-profile-left {
+  width: 50%;
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\children.png"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\children.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.home-background-kids-profile-right {
+  width: 50%;
+  padding-top: 125px;
+}
+
+.home-background-kids-profile-right h1 {
+  width: 450px;
+  margin-left: 30px;
+  font-size: 48px;
+}
+
+.home-background-kids-profile-right h2 {
+  margin-left: 30px;
+  width: 450px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+/* Footer second bottom */
+.home-second-bottom-bg {
+  width: 100%;
+  background-color: #030303;
+  color: #fff;
+  padding: 50px 0px;
+  margin-bottom: 8px;
+
+}
+
+.home-second-bottom-bg-freq-ques {
+  font-size: 21px;
+  text-align: center;
+}
+
+.home-second-bottom-bg-freq-ques-question1 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px 15px 30px;
+  background-color: #221c1c;
+  margin: 10px 225px 10px 225px;
+  font-size: 22px;
+}
+
+.bottom-second-ready-watch {
+  padding: 15px 30px 15px 30px;
+
+}
+
+.bottom-second-ready-watch h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.bottom-second-ready-watch-input {
+  display: flex;
+  padding: 2px 70px;
+}
+
+/* CSS for Main Bottom home page Netflix */
+.main-footer-bottom-home {
+  width: 100%;
+  background-color: #030303;
+  color: #fff;
+  padding: 50px 0px;
+  margin-bottom: 8px;
+}
+
+.question-call-home {
+  margin: 50px 150px 10px 150px;
+}
+
+.question-call-home h2 {
+  font-weight: 400;
+}
+
+#call-contactHome a {
+  color: #fff;
+  font-weight: 400;
+}
+
+.main-footer-bottom-home-main-content {
+  margin: 10px 150px 10px 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-footer-bottom-home-first a {
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+  padding: 14px 5px;
+  margin-left: -40px;
+}
+
+#bottom-right-language {
+  margin: 0px 150px;
+}
+
+#bottoom-languageSelect {
+  background-color: #030303;
+  color: white;
+  border-radius: 4px;
+  font-size: 21px;
+  width: 135px;
+}
+
+.footer-final-Netflix {
+  margin: 0px 150px;
+  padding: 10px 0px;
+}
+
+.footer-final-Netflix h3 {
+  font-weight: 400;
+}
+
+/* SignIn Page Component CSS here */
+.signin-main-bg-img-black {
+  background: rgba(15, 14, 14, 0.4);
+}
+
+.signin-main-bg-img {
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\Netflix Logo.jpg"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\Netflix Logo.jpg");
+  background-repeat: no-repeat;
+}
+
+.signin-nav-top-logo {
+  /* height: 100px; */
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\Netflix_Logo_CMYK.png"); */
+  /* background-position: left; */
+  /* background-size: 14%; */
+  /* background-repeat: no-repeat; */
+  /* margin: 0px 40px; */
+  flex-wrap: wrap;
+  padding-left: 50px;
+}
+
+.signin-nav-top-logo img {
+  height: 100px;
+  width: 200px;
+}
+
+.signin-box-input-wth {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.signin-box-input {
+  width: 450px;
+  display: block;
+  align-items: center;
+  background: rgba(18, 18, 18, 0.867);
+  padding: 40px 0px 155px 0px;
+}
+
+.signin-box-input-sign {
+  margin: 0px 55px;
+}
+
+.signin-box-input-sign h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 33px;
+}
+
+.signin-box-contact {
+  display: block;
+  margin: 5px 45px;
+}
+
+#signin-box-contact-ph {
+  width: 290px;
+  padding: 10px 20px;
+  margin: 10px;
+  background: rgb(92, 86, 86);
+}
+
+#signin-box-contact-password {
+  width: 290px;
+  padding: 10px 20px;
+  margin: 10px;
+  background: rgb(92, 86, 86);
+}
+
+.Signin-box-button-red {
+  margin: 50px 60px 8px 55px;
+  height: 42px;
+  color: white;
+  background-color: rgb(255, 0, 0);
+  text-align: center;
+  border-radius: 3px;
+}
+
+.Signin-box-button-red span {
+  font-size: 24px;
+}
+
+.signIn-Checkbox-Remember {
+  margin: 0px 60px 0px 55px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signIn-Checkbox-Remember-right a {
+  text-decoration: none;
+  color: white;
+}
+
+.signIn-Checkbox-Remember-right a:hover {
+  text-decoration: underline;
+}
+
+.Signin-new-to-netflix-box {
+  margin: 40px 60px 0px 54px;
+  display: flex;
+  color: #fff;
+  padding-left: 5px;
+}
+
+.Signin-new-to-netflix-box h3 {
+  color: gray;
+  font-weight: 400;
+}
+
+.Signin-new-to-netflix-box a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.sign-page-protected {
+  margin: 0px 60px 0px 60px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.sign-page-protected a {
+  color: blue;
+  text-decoration: none;
+}
+
+.signIn-footer-bg {
+  background: rgba(12, 12, 12, 0.9);
+  padding: 50px 200px;
+}
+
+.signIn-footer-bg-contact {
+  color: white;
+  font-size: 21px;
+}
+
+.signIn-footer-bg-contact span:hover {
+  text-decoration: underline;
+}
+
+.signin-footer-bottom-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.signin-footer-bottom-content-first a {
+  display: flex;
+  color: #fff;
+  padding: 15px 0px;
+  text-decoration: none;
+}
+
+.signin-footer-bottom-content-first a:hover {
+  text-decoration: underline;
+}
+
+#signin-bottom-right-language {
+  margin: 30px 0px;
+}
+
+#signin-bottoom-languageSelect {
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .signin-main-bg-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .signIn-footer-bg-contact {
+    font-size: 10px;
+    flex-wrap: wrap;
+  }
+
+  .signIn-footer-bg {
+    padding: 10px 30px;
+  }
+
+  .signin-footer-bottom-content {
+    margin: 5px 5px;
+  }
+
+  .signin-footer-bottom-content-first {
+    margin: 0px 0px;
+  }
+
+  .signin-footer-bottom-content-first a {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .signin-box-input-wth {
+    width: auto;
+  }
+
+  .signin-box-input {
+    width: 100%;
+  }
+
+  .signin-box-contact {
+    margin: 0px 0px;
+    text-align: center;
+  }
+
+  .signin-main-bg-img-black {
+    height: 100%;
+  }
+}
+
+/* Css for the Home Page Hindi Here */
+.homepadding-fill-bg-hn {
+  background-color: #221c1c;
+  position: absolute;
+}
+
+.navbarBackground-hn {
+  background: rgba(12, 12, 12, 0.65);
+  height: 100vh;
+}
+
+.navbarBackground-black-hn {
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\Netflix Logo.jpg"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\Netflix Logo.jpg");
+  height: 100vh;
+  background-position: 60% 80%;
+  font-family: sans-serif;
+  margin-bottom: 8px;
+}
+
+.navbarHome-hn {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 175px 30px 175px;
+}
+
+.navbarHome-left-hn {
+  width: 220px;
+  height: 100px;
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\Netflix_Logo_CMYK.png"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\Netflix_Logo_CMYK.png");
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+.navbarHome-right-hn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+  color: white;
+}
+
+#languageSelect-hn {
+  background-color: black;
+  color: white;
+  font-size: .8em;
+  padding: 5px 14px;
+  margin-right: 14px;
+  border-radius: 4px;
+}
+
+
+#navbarHome-right-signin-hn {
+  padding: 3.5px 18px;
+  background-color: red;
+  border-radius: 6px;
+  margin-left: 14px;
+}
+
+
+#navbarHome-right-signin-hn a {
+  text-decoration: none;
+  color: white;
+  font-size: .8em;
+}
+
+.navbarIntro-Central-Home-hn {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  margin-top: 160px;
+  font-weight: bolder;
+}
+
+.navbarIntro-input-home-hn {
+  display: flex;
+  justify-content: center;
+}
+
+#navbarIntro-input-home-take-hn {
+  width: 380px;
+  height: 50px;
+  margin-right: 12px;
+  background: rgba(18, 18, 18, 0.2)
+}
+
+.navbarIntro-input-home-2-hn {
+  background-color: red;
+  padding: 12px 35px;
+  margin-left: 12px;
+}
+
+.navbarIntro-input-home-2-hn a {
+  color: white;
+  font-size: 21px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Tv box css here */
+.home-enjoy-2-tv-hn {
+  background-color: #030303;
+  color: #fff;
+  display: flex;
+  height: 80vh;
+  margin-bottom: 8px;
+}
+
+.home-enjoy-2-tv-left-hn {
+  padding-top: 200px;
+  width: 50%;
+}
+
+.home-enjoy-2-tv-left-hn h1 {
+  margin: 0px 00px 0px 180px;
+  font-size: 48px;
+  padding-bottom: 32px;
+}
+
+.home-enjoy-2-tv-left-hn h2 {
+  margin: 0px 0px 0px 180px;
+  font-weight: 400;
+}
+
+
+.home-enjoy-2-tv-right-hn {
+  width: 50%;
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\tv.png"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\tv.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+/* Mobile box Css here */
+.home-background-mobile-hn {
+  background-color: #030303;
+  color: #fff;
+  display: flex;
+  height: 80vh;
+  margin-bottom: 8px;
+}
+
+.home-background-mobile-left-hn {
+  width: 50%;
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\mobile.jpg"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\mobile.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.home-background-mobile-right-hn {
+  padding-top: 130px;
+  width: 50%;
+}
+
+.home-background-mobile-right-hn h1 {
+  margin-right: 180px;
+  font-size: 48px;
+}
+
+.home-background-mobile-right-hn h2 {
+  margin-right: 250px;
+  font-weight: 400;
+}
+
+.home-background-mobile-left-box-hn {
+  border: 2px solid #fff;
+  width: 400px;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 360px;
+  background-color: black;
+  margin-left: 248px;
+}
+
+.home-background-mobile-left-box-left-hn {
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\mobile boxshot.png"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\mobile boxshot.png");
+  width: 80px;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-background-mobile-left-box-right-hn {
+  width: 320px;
+  padding-left: 20px;
+}
+
+.home-background-mobile-left-box-right-hn h3 {
+  font-weight: 400;
+}
+
+#stranger-things-more-hn {
+  color: blue;
+  margin-top: -20px;
+}
+
+/* Box no.3 Watch everywhere */
+.home-background-watch-mainbox-hn {
+  background-color: #030303;
+  color: #fff;
+  display: flex;
+  height: 80vh;
+  margin-bottom: 8px;
+}
+
+.home-background-watch-mainbox-left-hn {
+  width: 50%;
+  padding-top: 220px;
+}
+
+.home-background-watch-mainbox-left-hn h1 {
+  margin: 0px 00px 0px 240px;
+  font-size: 48px;
+  padding-bottom: 32px;
+}
+
+.home-background-watch-mainbox-left-hn h2 {
+  margin: 0px 80px 0px 240px;
+  font-weight: 400;
+}
+
+.home-background-watch-mainbox-right-hn {
+  width: 50%;
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\appletv.png"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\appletv.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  height: 80vh;
+  background-position: center;
+}
+
+/* Css for create profile for Kid's. */
+.home-background-kids-profile-hn {
+  background-color: #030303;
+  color: #fff;
+  display: flex;
+  height: 80vh;
+  margin-bottom: 8px;
+}
+
+.home-background-kids-profile-left-hn {
+  width: 50%;
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\New React\my-app\src\Gallery\children.png"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\src\Gallery\children.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.home-background-kids-profile-right-hn {
+  width: 50%;
+  padding-top: 125px;
+}
+
+.home-background-kids-profile-right-hn h1 {
+  width: 450px;
+  margin-left: 30px;
+  font-size: 48px;
+}
+
+.home-background-kids-profile-right-hn h2 {
+  margin-left: 30px;
+  width: 450px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+/* Footer second bottom */
+.home-second-bottom-bg-hn {
+  width: 100%;
+  background-color: #030303;
+  color: #fff;
+  padding: 50px 0px;
+  margin-bottom: 8px;
+
+}
+
+.home-second-bottom-bg-freq-ques-hn {
+  font-size: 21px;
+  text-align: center;
+}
+
+.home-second-bottom-bg-freq-ques-question1-hn {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px 15px 30px;
+  background-color: #221c1c;
+  margin: 10px 225px 10px 225px;
+  font-size: 22px;
+}
+
+.bottom-second-ready-watch-hn {
+  padding: 15px 30px 15px 30px;
+
+}
+
+.bottom-second-ready-watch-hn h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.bottom-second-ready-watch-input-hn {
+  display: flex;
+  padding: 2px 70px;
+}
+
+/* CSS for Main Bottom home page Netflix */
+.main-footer-bottom-home-hn {
+  width: 100%;
+  background-color: #030303;
+  color: #fff;
+  padding: 50px 0px;
+  margin-bottom: 8px;
+}
+
+.question-call-home-hn {
+  margin: 50px 150px 10px 150px;
+}
+
+.question-call-home-hn h2 {
+  font-weight: 400;
+}
+
+#call-contactHome-hn a {
+  color: #fff;
+  font-weight: 400;
+}
+
+.main-footer-bottom-home-main-content-hn {
+  margin: 10px 150px 10px 150px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-footer-bottom-home-first-hn a {
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+  padding: 14px 5px;
+  margin-left: -40px;
+}
+
+#bottom-right-language-hn {
+  margin: 0px 150px;
+}
+
+#bottoom-languageSelect-hn {
+  background-color: #030303;
+  color: white;
+  border-radius: 4px;
+  font-size: 21px;
+  width: 135px;
+}
+
+.footer-final-Netflix-hn {
+  margin: 0px 150px;
+  padding: 10px 0px;
+}
+
+.footer-final-Netflix-hn h3 {
+  font-weight: 400;
+}
+
+/* Css for the Need Help */
+.needhelp-main-bg {
+  /* border: 2px solid red; */
+  width: 100%;
+  background: rgb(12, 12, 12);
+}
+
+.needhelp-bg-main-img {
+  height: 100vh;
+  /* background-image: url("C:\Users\ittik\OneDrive\Desktop\Create React App-4\mynetflix\public\images\needbg1.jpg"); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Open Netflix\netmyflix\public\images\needbg1.jpg");
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.needhelp-main-bg-nav {
+  width: 100%;
+  /* border: 2px solid black; */
+  height: 14vh;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.732);
+}
+
+.needhelp-main-bg-nav-left {
+  /* border: 2px solid black; */
+  text-align: center;
+  width: 250px;
+}
+
+.needhelp-main-bg-nav-left img {
+  /* border: 2px solid blue; */
+  width: 200px;
+  height: 13vh;
+}
+
+.needhelp-main-bg-nav-right {
+  /* border: 2px solid red; */
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.needhelp-main-bg-nav-right a {
+  /* border: 2px solid gold; */
+  text-decoration: none;
+  color: red;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.needhelp-main-bg-nav-right a:hover {
+  text-decoration: underline;
+}
+
+.needhelp-bg-main-img-center-box {
+  /* border: 2px solid green; */
+  height: 86vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.599);
+  display: flex;
+  justify-content: center;
+}
+
+.needhelp-bg-main-img-center-box-items {
+  /* border: 2px solid red; */
+  background-color: white;
+  width: 470px;
+}
+
+.needhelp-bg-main-img-center-box-items-top {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 56vh;
+}
+
+.needhelp-bg-main-img-center-box-items-bottom {
+  /* border: 2px solid gold; */
+  background-color: black;
+  width: 100%;
+  height: 25vh;
+}
+
+.needhelp-bg-main-img-center-box-items-top-pd {
+  /* border: 2px solid red; */
+  margin: 40px;
+  padding-bottom: 20px;
+}
+
+.needhelp-bg-main-img-center-box-items-top-pd-heading {
+  /* border: 2px solid green; */
+  font-size: 31px;
+  font-weight: 600;
+  padding: 15px 0px;
+}
+
+.needhelp-bg-main-img-center-box-items-top-pd-para {
+  /* border: 2px solid black; */
+  margin: 3px;
+}
+
+.needhelp-bg-main-img-center-box-items-top-pd-radio-in {
+  /* border: 2px solid gray; */
+  display: block;
+  font-size: 21px;
+  padding: 0px 30px;
+}
+
+.needhelp-bg-main-img-center-box-items-top-pd-para2 {
+  /* border: 2px solid blue; */
+  height: 50px;
+}
+
+.needhelp-bg-main-img-center-box-items-top-pd-placeholder {
+  /* border: 2px solid yellow; */
+  margin: 5px 0px;
+  text-align: center;
+  height: 50px;
+}
+
+#needhelp-bg-main-img-center-box-items-top-pd-placeholder-id {
+  width: 98%;
+  height: 44px;
+  border: gray 1px solid;
+}
+
+.needhelp-bg-main-img-center-box-items-top-pd-btn {
+  /* border: 2px solid red; */
+  padding: 1px;
+  height: 46px;
+  margin: 30px 0px;
+}
+
+#sendBtnContact {
+  /* height: 35px; */
+  width: 100%;
+  background-color: rgb(4, 98, 157);
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 19px;
+  padding: 10px 0px;
+}
+
+#sendBtnContact:hover {
+  cursor: pointer;
+  background-color: rgb(6, 135, 214);
+}
+
+.needhelp-bg-main-img-center-box-items-top-pd-alink {
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.needhelp-bg-main-img-center-box-items-top-pd-alink a {
+  color: rgb(3, 92, 127);
+  text-decoration: none;
+}
+
+.needhelp-bg-main-img-center-box-items-top-pd-alink:hover {
+  text-decoration: underline;
+  color: rgb(3, 92, 127);
+}
+
+.needhelp-bg-main-img-center-box-items-bottom-hd {
+  color: white;
+  padding: 0px 10px 0px 3px;
+}
+
+.needhelp-bg-main-img-center-box-items-bottom-hd a {
+  color: whitesmoke;
+}
+
+.needhelp-main-bg-footer {
+  width: 100%;
+  height: 35vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+
+}
+
+.needhelp-main-bg-footer-pd {
+  width: 70%;
+}
+
+.needhelp-main-bg-footer-pd-questions {
+  color: whitesmoke;
+  padding: 10px;
+}
+
+.needhelp-main-bg-footer-pd-questions a {
+  color: white;
+  text-decoration: none;
+}
+
+.needhelp-main-bg-footer-pd-questions a:hover {
+  text-decoration: underline;
+}
+
+.needhelp-main-bg-footer-pd-contents-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.needhelp-main-bg-footer-pd-contents-main li {
+  list-style: none;
+  display: block;
+  margin: 15px 0px;
+}
+
+
+.needhelp-main-bg-footer-pd-contents-1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 100;
+}
+
+.needhelp-main-bg-footer-pd-contents-1 a:hover {
+  text-decoration: underline;
+}
+
+.needhelp-bottom-right-language {
+  padding: 25px 0px;
+}
+
+#needhelp-bottoom-languageSelect {
+  text-align: center;
+  width: 130px;
+  height: 25px;
+}
